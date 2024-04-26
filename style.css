@@ -89,7 +89,7 @@ header {
     color: var(--white-color);
     letter-spacing: .1rem;
     transition: color .4s;
-    padding-left: 160px;
+    /* padding-left: 160px; */
 }
 
 .logo:hover {
@@ -580,7 +580,36 @@ footer .asterisk {
 
 .join-us .image {
     display: none;
+
 }
+
+
+#whatsappButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: #25D366; /* WhatsApp green */
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#whatsappButton:hover {
+    background-color: #128C7E; /* Darker WhatsApp green on hover */
+}
+
+#whatsappButton img {
+    width: 100%;
+    height: auto;
+}
+
+
 
 /*                         MEDIA QUERIES                  */
 
